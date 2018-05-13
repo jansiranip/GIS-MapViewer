@@ -1,0 +1,75 @@
+.olPopup {
+  display: none;
+  position: absolute;
+  background-color: white;
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+  filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+  bottom: 12px;
+  left: -50px;
+  width: 350px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+
+.olPopupContents table{
+  width:95%;
+  font-size: 10px;
+  text-align:left;
+  height: 100px;
+  overflow-y:auto;
+  overflow-x: auto;
+}
+
+.olPopupButton table{
+  width:95%;
+  font-size: 10px;
+  text-align:left;
+
+}
+.olPopupButton{
+  background-color:grey;
+}
+
+.olPopupCloser {
+  text-decoration: none;
+  position: absolute;
+  top: 2px;
+  right: 8px;
+}
+
+
+.mapComp{
+  width: 100%; 
+  height: -webkit-calc(100% - 50px);
+  height: -moz-calc(100% - 50px);
+  height: calc(100% - 50px);
+}
+
+.dropdown-menu>li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.open>ul {
+  display: inline-flex !important;
+}
+
+.listItem {
+  display: list-item !important;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}

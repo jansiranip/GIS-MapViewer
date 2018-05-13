@@ -1,0 +1,35 @@
+{
+  "name": "NGEM",
+  "version": "1.0.0",
+  "description": "NGEM app built with React, Redux and Webpack",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server/server.js --ignore components"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://cdm.kilnhg.com/Code/Chennai-RD/Municipal-GIS/NGEMServerMongoDB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-react-hmre": "^1.1.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.34",
+    "mongoose": "^5.0.6",
+    "promise": "^8.0.1",
+    "webpack": "^1.12.13",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-hot-middleware": "^2.20.0"
+  },
+  "devDependencies": {
+    "babel-preset-react-hmre": "^1.1.1"
+  }
+}
